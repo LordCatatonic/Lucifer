@@ -7,6 +7,11 @@ import settings
 import subprocess
 import psutil
 
+if "Linux" == settings.ostype():
+	killcmd = 'killall'
+else:
+	killcmd = 'taskkill'
+
 class watchman(threading.Thread):
 	def __init__(self):
 		threading.Thread.__init__(self)
