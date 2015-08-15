@@ -1,4 +1,5 @@
-# Lucifer
-Python botnet
+# Lucifer Python botnet
+
+# Requires PhantomJS!
 
 Code is WIP
